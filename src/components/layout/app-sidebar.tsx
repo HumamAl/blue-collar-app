@@ -13,6 +13,11 @@ import {
   User,
   ArrowRight,
   Github,
+  ClipboardList,
+  HardHat,
+  CalendarCheck,
+  DollarSign,
+  Star,
 } from "lucide-react";
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -23,9 +28,12 @@ import {
 // ═══════════════════════════════════════════════════════════════════════════
 
 const navItems = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
-  // Dashboard Builder agent: add 3-5 feature page nav items here.
-  // Example: { href: "/orders", label: "Orders", icon: ShoppingCart },
+  { href: "/", label: "Overview", icon: LayoutDashboard },
+  { href: "/jobs", label: "Job Board", icon: ClipboardList },
+  { href: "/pros", label: "Pros", icon: HardHat },
+  { href: "/bookings", label: "Bookings", icon: CalendarCheck },
+  { href: "/earnings", label: "Earnings", icon: DollarSign },
+  { href: "/reviews", label: "Reviews", icon: Star },
 ];
 
 function SidebarLogo({ collapsed }: { collapsed: boolean }) {
