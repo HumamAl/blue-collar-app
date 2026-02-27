@@ -1,6 +1,6 @@
 Hi,
 
-TaskRabbit for plumbers, electricians, and movers — the two-sided matching and trust layer is what makes or breaks it, and I built a working version before reaching out: {VERCEL_URL}
+TaskRabbit for plumbers, electricians, and movers — the two-sided matching and trust layer is what makes or breaks it, and I built a working version before reaching out: https://blue-collar-app.vercel.app
 
 The demo covers trade listings, booking flow, and separate homeowner/tradesperson views — simple and clean, the way you described. Built Lynt Marketplace with full vendor onboarding, listing management, and transaction tracking ready for production.
 
